@@ -1,5 +1,5 @@
 const apiKey = "7dfbc4ab";
-const baseUrl = "http://www.omdbapi.com/";
+const baseUrl = "https://www.omdbapi.com/";
 
 async function fetchMovies(query) {
   try {

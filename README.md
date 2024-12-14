@@ -65,13 +65,6 @@ movie-search-app/
    - Clicking a movie card fetches detailed information from the OMDB API using the movie's IMDb ID.
    - A popup displays the movie's details in a user-friendly format.
 
-## Screenshots
-
-### Home Page
-![Home Page](https://via.placeholder.com/800x400?text=Home+Page)
-
-### Movie Details Popup
-![Movie Details Popup](https://via.placeholder.com/800x400?text=Movie+Details+Popup)
 
 ## Contributing
 

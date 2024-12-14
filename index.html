@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🎥 Movie Search App</h1>
+    </header>
+    <main>
+        <section class="search-bar">
+            <input type="text" id="movie-input" placeholder="Search for a movie...">
+            <button id="search-button">Search</button>
+        </section>
+        <section id="results-container">
+            <!-- Movie results will be dynamically added here -->
+        </section>
+        <section id="movie-details" class="hidden">
+            <!-- Detailed movie info will be displayed here -->
+            <button id="close-details">Close</button>
+            <div id="details-content">
+                <!-- Content dynamically added via JavaScript -->
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+<footer></footer>
+</html>
